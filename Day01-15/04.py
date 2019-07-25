@@ -48,12 +48,30 @@
 #         print('*', end='')
 #     print()
 
+# def multiplication():
+#     for i in range(1, 10):
+#         for j in range(1, i + 1):
+#             print(('%d*%d=%d' % (i, j, i * j)), end='\t')
+#         print()
 
-def multiplication():
-    for i in range(1, 10):
-        for j in range(1, i + 1):
-            print(('%d*%d=%d' % (i, j, i * j)), end='\t')
-        print()
+# multiplication()
+
+# def testAbs():
+#     print('abs(-45)', file=open('../data.txt', 'w'))
+#     print('abs(-119L)', abs(110))
+
+# testAbs()
+
+# def iterable(parma):
+#     print(all(parma))
+
+# iterable(['', ''])
 
 
-multiplication()
+# ascii
+def pyAscii(parma):
+    print(ascii(parma))
+    print(parma)
+
+
+pyAscii('')
